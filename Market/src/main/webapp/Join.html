@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>SIGN UP</title>
 </head>
+<link rel="stylesheet" href="css/css_Join.css">
 <body>
-<form action="Welcome.html">
-ID <input type="text" name="id"> <br>
-PW <input type="password" name="password"> <br>
-�̸� <input type="text" name="name"> <br>
-���� <label><input type="radio" value="man" name="gender">��</label>
-	<label><input type="radio" value="women" name="gender">��</label> <br>
-����ó <input type="tel" name="number"> <br>
-��Ÿ�� <label><input type="checkbox" value="everyday" name="style">�ϻ�</label>
-	 <label><input type="checkbox" value="company" name="style">ȸ�纹</label>
-	 <label><input type="checkbox" value="child" name="style">�Ƶ���</label>
-	 <label><input type="checkbox" value="ssports" name="style">���</label> <br>
-<input type="submit" value="ȸ������">
-</form>
+	<form action="Welcome.html">
+		<ul>
+			<li><label>ID </label><input id="ch_id" type="text" name="id">
+				<input type="button" value="중복 확인" onclick="check()"></li>
+			<li><label>PW </label><input type="password" name="password"></li>
+			<li><label>이름 </label><input type="text" name="name"></li>
+			<li><label>성별 </label><label><input type="radio" value="man" name="gender">남</label>
+						   <label><input type="radio" value="women" name="gender">여</label></li>
+			<li><label>연락처 </label> <input type="tel" name="number"></li>
+			<li><label>스타일 </label></li>
+			<li><label><input type="checkbox" value="everyday" name="style">일상복</label>
+				<label><input type="checkbox" value="company" name="style">회사복</label>
+				<label><input type="checkbox" value="child" name="style">아동복</label>
+				<label><input type="checkbox" value="sports" name="style">운동복</label></li>
+				
+			<li><input type="submit" value="회원가입"></li>
+		</ul>
+	</form>
+	
+	<script src="javascript/mode.js"></script>
 </body>
 </html>

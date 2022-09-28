@@ -1,0 +1,7 @@
+@charset "EUC-KR";
+
+#btn_mode {
+	position: absolute; /* 위치 설정 방식 */
+	top: 5px; /* 위로부터 5px 떨어진 위치 */
+	right: 5px; /* 오른쪽으로부터 5px 떨어진 위치 */
+}
