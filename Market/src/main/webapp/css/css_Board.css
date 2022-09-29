@@ -19,7 +19,5 @@ ul {
 	padding: 5px; /* 테두리박스 내부 여백: 5px */
 	box-sizing: content-box; /* 테두리박스 사이즈 설정 방식 */
 	
-	left: 0; /* 왼쪽 여백: 0 */
-	right: 0; /* 오른쪽 여백: 0 */
 	margin: 0 auto; /* 위아래 여백은 X, 좌우의 여백만 균등하게 분배 */
 }
