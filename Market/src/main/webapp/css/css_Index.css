@@ -1,7 +1,7 @@
-@charset "EUC-KR";
+@charset "UTF-8";
 
 #btn_mode {
-	position: absolute; /* ю╖д║ ╪Ёа╓ ╧Ф╫д */
-	top: 5px; /* ю╖╥н╨нем 5px ╤Ё╬НаЬ ю╖д║ */
-	right: 5px; /* ©ю╦╔бйю╦╥н╨нем 5px ╤Ё╬НаЬ ю╖д║ */
+	position: absolute; /* Л°└Л╧≤ Л└╓Л═∙ К╟╘Л▀² */
+	top: 5px; /* Л°└К║°К╤─М└╟ 5px К√╗Л√╢Л╖└ Л°└Л╧≤ */
+	right: 5px; /* Л≤╓К╔╦Л╙╫Л°╪К║°К╤─М└╟ 5px К√╗Л√╢Л╖└ Л°└Л╧≤ */
 }
