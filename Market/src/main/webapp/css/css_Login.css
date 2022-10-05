@@ -1,15 +1,18 @@
 @charset "UTF-8";
 
-ul {
+#login_ul {
 	padding-left: 0; /* 왼쪽 여백 제거 */
 	list-style: none; /* 기호 제거 */
 	
 	border-style: solid; /* 테두리 스타일: 실선 */
 	border-width: 1px; /* 테두리 두께: 1px */
 	width: 210px; /* 테두리박스 가로 길이: 210px */
-	height: 71px; /* 테두리박스 세로 길이: 71px */
+	height: 98px; /* 테두리박스 세로 길이: 98px */
 	padding: 5px; /* 테두리박스 내부 여백: 5px */
 	box-sizing: content-box; /* 테두리박스 사이즈 설정 방식 */
 	
-	margin: 0 auto; /* 위아래 여백은 X, 좌우의 여백만 균등하게 분배 */
+	position: absolute; /* 부모 엘리먼트를 기준으로 절대적인 위치 값 */
+	top: 7%; /* 위에서부터 7% 거리 */
+	left: 50%; /* 왼쪽에서부터 50% 거리 */
+	transform: translate(-50%, -50%); /* 대상의 x축, y축의 -50% 즉, ul테두리박스 크기의 절반만큼을 빼서 이동 */
 }

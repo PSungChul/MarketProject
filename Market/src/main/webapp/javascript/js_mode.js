@@ -7,17 +7,13 @@ btn_mode.addEventListener("click", function() {
 		body.style.backgroundColor = "#383838";
 		tx_mode[0].style.color = "white";
 		tx_mode[1].style.color = "white";
-		tx_mode[2].style.color = "white";
-		tx_mode[3].style.color = "white";
-		tx_mode[4].style.color = "white";
 		btn_mode.value = "데이모드";
 	} else {
 		body.style.backgroundColor = "white";
 		tx_mode[0].style.color = "black";
 		tx_mode[1].style.color = "black";
-		tx_mode[2].style.color = "black";
-		tx_mode[3].style.color = "black";
-		tx_mode[4].style.color = "black";
 		btn_mode.value = "다크모드";
 	}
 });
+
+

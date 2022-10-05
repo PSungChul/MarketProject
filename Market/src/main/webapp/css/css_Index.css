@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-#div_1 {
+#div_login {
 	text-align: center;
 }
 
@@ -9,4 +9,3 @@
 	top: 5px; /* 위로부터 5px 떨어진 위치 */
 	right: 5px; /* 오른쪽으로부터 5px 떨어진 위치 */
 }
-
