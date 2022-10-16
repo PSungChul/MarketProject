@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* 분류 */
+#category_st {
+	font-size: 15px;
+	color: brown;
+}
+/* 작성자 */
+#writer_st {
+	font-size: 15px;
+}
+/* 날짜 */
+#date_st {
+	font-size: 10px;
+	color: gray;
+}
+/* 내용 구분선 */
+#line {
+	outline: none; /* 테두리 바깥 외곽선 X */
+	border-style: solid;
+	border-left-width: 0px; /* 왼쪽 테두리 두께: 0px */
+	border-right-width: 0px; /* 오른쪽 테두리 두께: 0px */
+	border-top-width: 0px; /* 상단 테두리 두께: 0px */
+	border-bottom-width: 1px; /* 하단 테두리 두께: 1px */
+	width: auto; /* 길이는 테두리 박스에 맞게 자동 조절 */
+}
+/* 테두리 박스 */
+#boardView_ul {
+	padding-left: 0; /* 왼쪽 여백 제거 */
+	list-style: none; /* 기호 제거 */
+	
+	border-style: solid; /* 테두리 스타일: 실선 */
+	border-width: 1px; /* 테두리 두께: 1px */
+	width: 500px; /* 테두리박스 가로 길이: 300px */
+	height: 600px; /* 테두리박스 세로 길이: 600px */
+	padding: 10px; /* 테두리박스 내부 여백: 10px */
+	box-sizing: border-box; /* 테두리박스 사이즈 설정 방식 */
+	
+	position: absolute; /* 부모 엘리먼트를 기준으로 절대적인 위치 값 */
+	top: 50%; /* 위에서부터 50% 거리 */
+	left: 50%; /* 왼쪽에서부터 50% 거리 */
+	transform: translate(-50%, -50%); /* 대상의 x축, y축의 -50% 즉, ul테두리박스 크기의 절반만큼을 빼서 이동 */
+}
+/* 홈버튼 */
+#btn_home {
+	position: absolute; /* 화면 전체를 기준으로 절대적인 값 */
+	bottom: 15%; /* 아래에서부터 15% 거 */
+	left: 50%; /* 왼쪽에서부터 50% 거리 */
+	transform: translate(-50%, -50%); /* 대상의 왼쪽상단에서 중앙으로 위치 중심점 이동 */
+}

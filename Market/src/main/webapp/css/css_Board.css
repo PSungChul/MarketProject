@@ -14,10 +14,10 @@
 	
 	border-style: solid; /* 테두리 스타일: 실선 */
 	border-width: 1px; /* 테두리 두께: 1px */
-	width: 248px; /* 테두리박스 가로 길이: 248px */
-	height: 298px; /* 테두리박스 세로 길이: 298px */
+	width: auto; /* 테두리박스 가로 길이: auto */
+	height: auto; /* 테두리박스 세로 길이: auto */
 	padding: 5px; /* 테두리박스 내부 여백: 5px */
-	box-sizing: content-box; /* 테두리박스 사이즈 설정 방식 */
+	box-sizing: border-box; /* 테두리박스 사이즈 설정 방식 */
 	
 	position: absolute; /* 부모 엘리먼트를 기준으로 절대적인 위치 값 */
 	top: 18%; /* 위에서부터 18% 거리 */
