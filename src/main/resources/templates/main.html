@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>main</title>
+    <style>
+        ul {
+            padding-left: 0;
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <h2>신촌마켓</h2>
+    <input type="button" value="로그인" onclick="location.href='/member/login';">
+    <input type="button" value="회원가입" onclick="location.href='/member/join';">
+    <input id="btnTest" type="button" value="테스트">
+    <form action="/product/search" method="get">
+        <ul>
+            <li><input type="text">
+                <input type="submit" value="검색"></li>
+        </ul>
+    </form>
+</body>
+</html>
