@@ -15,5 +15,3 @@ btn_mode.addEventListener("click", function() {
 		btn_mode.value = "다크모드";
 	}
 });
-
-
